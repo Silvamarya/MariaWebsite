@@ -1,0 +1,59 @@
+
+.header {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+  }
+  #linear-gradient {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    background-image:linear-gradient( black,white);
+    transition-duration:.100s;
+
+  }
+#linear-grandient  p {
+  text-align:center;
+  vertical-align: middle;
+  line-height: 150px;
+  color: white
+  
+  }
+
+  p{
+    background-color: white(122, 116, 116, 0.973);
+    color: rgb(84, 50, 205);
+    font-size: medium;
+    border: #030301;
+  }
+  img.me {
+  width: auto; 
+  float:left;
+  padding: 10px;
+  border: 1px; 
+  border-style: solid;
+  margin:10px;
+  min-width: 320px;
+  max-width: 400px;
+  }
+  p{
+    border: 2px solid color greend;
+    padding: 30px;
+}
+h1.name {color: blue;}
+img.name{
+  color: white;
+}
+
+
+@media only screen and  (max-width: 1000px)
+
+   { 
+    body{
+    background-color: yellowgreen;
+    font-size: 12px;
+   }
+       
+}
